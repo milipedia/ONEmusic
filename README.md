@@ -25,7 +25,7 @@ O projeto foi criado para praticar os principais **conceitos de POO (Programaç�
 ---
 
 ## 🧩 Estrutura do Projeto
-
+```
 ONEmusic/
 ├── src/
 │ ├── principal/
@@ -36,9 +36,7 @@ ONEmusic/
 │ ├── Podcast.java
 │ └── MinhasPreferidas.java
 └── README.md
-
-yaml
-Copiar código
+```
 
 ### 📂 Pacote `modelos`
 Contém as classes principais:
@@ -118,11 +116,12 @@ for (int i = 0; i < 5000; i++) {
 for (int i = 0; i < 1000; i++) {
     podcast.curtir();
 }
-```
+
 
 MinhasPreferidas preferidas = new MinhasPreferidas();
 preferidas.inclui(musica);
 preferidas.inclui(podcast);
+```
 💡 Ideias Futuras
 ✨ Adicionar persistência de dados (salvar histórico de áudios)
 🎨 Criar uma interface gráfica simples
