@@ -94,7 +94,7 @@ Localize e execute o arquivo Main.java.
 
 Observe a saída no terminal mostrando as informações de cada áudio, reproduções e classificações.
 
-🧠 Exemplo de Uso
+```🧠 Exemplo de Uso
 java
 Copiar código
 Musica musica = new Musica();
@@ -118,6 +118,7 @@ for (int i = 0; i < 5000; i++) {
 for (int i = 0; i < 1000; i++) {
     podcast.curtir();
 }
+```
 
 MinhasPreferidas preferidas = new MinhasPreferidas();
 preferidas.inclui(musica);
